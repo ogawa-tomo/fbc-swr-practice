@@ -22,7 +22,7 @@ function App() {
   const { status, isError, isLoading } = useStatus();
 
   if (isError) return <p>Failed</p>;
-  if (isLoading) return <p>Loading</p>;
+  if (isLoading) return <p>Loading...</p>;
 
   return <p>Status: {status}</p>;
 }
